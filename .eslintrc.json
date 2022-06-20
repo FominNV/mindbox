@@ -1,0 +1,55 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "airbnb",
+        "airbnb-typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "tsconfig.json"
+    },
+    "plugins": [
+        "react",
+        "import",
+        "jest",
+        "@typescript-eslint",
+        "react-hooks"
+    ],
+    "rules": {
+        "arrow-parens": 1,
+        "linebreak-style": 0,
+        "import/extensions": 0,
+        "quotes": [1, "double"],
+        "import/no-unresolved": 0,
+        "react/button-has-type": 0,
+        "react/jsx-indent-props": 1,
+        "react/react-in-jsx-scope": 0,
+        "react-hooks/exhaustive-deps": 1,
+        "react/jsx-filename-extension": 0,
+        "import/prefer-default-export": 0,
+        "@typescript-eslint/default-param-last": 0,
+        "react/function-component-definition": 0,
+        "@typescript-eslint/quotes": [1, "double"],
+        "@typescript-eslint/no-unused-vars": 1,
+        "react/jsx-max-props-per-line": [1, { "maximum": 1, "when": "always" }],
+        // jest
+        "jest/valid-expect": 2,
+        "jest/no-focused-tests": 2,
+        "jest/no-disabled-tests": 1,
+        "jest/no-identical-title": 2,
+        "jest/prefer-to-have-length": 1
+    }
+}

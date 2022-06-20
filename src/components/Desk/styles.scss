@@ -1,0 +1,19 @@
+@import "styles/sass/main";
+
+.Desk {
+  width: 570px;
+
+  &__logo {
+    width: 100%;
+    padding: 20px 0;
+    font: 100 110px/110px $acronym-thin;
+    letter-spacing: -5px;
+    color: $pink-light;
+    text-align: center;
+  }
+
+  &__content {
+    width: 100%;
+    background: $white;
+  }
+}

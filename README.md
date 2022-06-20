@@ -7,5 +7,3 @@
 Код - Eslint, Prettier;
 
 Оптимизация изображений - Adobe Photoshop
-
-Deploy #Mindbox

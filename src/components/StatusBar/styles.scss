@@ -1,0 +1,59 @@
+@import "styles/sass/main";
+
+.StatusBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid $gray-light;
+
+  &__count-todo {
+    width: 75px;
+    font: 100 14px/14px $roboto-thin;
+  color: black;
+  }
+
+  &__navbar {
+    display: flex;
+    column-gap: 16px;
+  }
+  
+  &__button-clear,
+  &__button-mode {
+    @include btn-reset;
+    padding: 4px 8px 3px;
+    font: 100 14px/14px $roboto-thin;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: all 0.25s;
+
+    &_active {
+      border-color: $pink-light;
+    }
+
+    &:hover {
+      border-color: blue;
+    }
+
+    &:disabled {
+      cursor: default;
+
+    &:hover {
+      border-color: $pink-light;
+    }
+    }
+  }
+
+  // &__button-clear {
+  //   @include btn-reset;
+  //   font: 100 14px/14px $roboto-thin;
+  //   color: black;
+
+  //   &:hover {
+  //     text-decoration: underline;
+  //   }
+  // }
+}

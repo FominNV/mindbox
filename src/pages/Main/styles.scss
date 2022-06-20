@@ -1,0 +1,13 @@
+@import "styles/sass/main";
+
+body {
+    background: $gray-high-light;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 32px;
+}

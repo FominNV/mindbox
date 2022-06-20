@@ -1,0 +1,31 @@
+@import "styles/sass/main";
+
+.Form {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  box-shadow: inset 0px 0px 1px 2px $gray-light;
+
+  &__button {
+    @include btn-reset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    padding-top: 5px;
+  }
+
+  &__input {
+    @include inp-reset;
+    width: calc(100% - 50px);
+    height: 100%;
+    padding: 0 16px;
+    font: 400 22px/22px $sequel-sans-light;
+    color: $black-gray;
+    
+    &::placeholder {
+      color: $gray-light;
+    }
+  }
+}

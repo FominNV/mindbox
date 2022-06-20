@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mindbox/static/css/main.03493167.css",
+    "main.js": "/mindbox/static/js/main.2f0127fc.js",
+    "static/media/Roboto-Thin.ttf": "/mindbox/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Light.ttf": "/mindbox/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/sequel-sans-light-obl-head.ttf": "/mindbox/static/media/sequel-sans-light-obl-head.3ffe5f1e78c4c93770f6.ttf",
+    "static/media/Acronym-Thin.otf": "/mindbox/static/media/Acronym-Thin.b01d1e8497a74dc13b96.otf",
+    "index.html": "/mindbox/index.html",
+    "main.03493167.css.map": "/mindbox/static/css/main.03493167.css.map",
+    "main.2f0127fc.js.map": "/mindbox/static/js/main.2f0127fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03493167.css",
+    "static/js/main.2f0127fc.js"
+  ]
+}
